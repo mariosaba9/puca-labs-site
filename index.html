@@ -1,13 +1,92 @@
 <!doctype html>
-<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Puca Labs</title>
-<meta name="description" content="Puca Labs: giochi per Android.">
-<style>:root{color-scheme:light dark}body{font-family:system-ui,sans-serif;max-width:640px;margin:0 auto;padding:32px 16px;line-height:1.5}a{color:#2563eb}h1{margin-bottom:0}</style></head>
-<body>
-<h1>Puca Labs</h1>
-<p>Piccolo studio indipendente di giochi per Android.</p>
-<h2>I nostri giochi</h2>
-<ul><li><a href="https://play.google.com/store/apps/details?id=com.emergent.unicoapp.thylqm"><strong>UNICO</strong></a> &ndash; Sii unico.</li></ul>
-<h2>Contatti</h2>
-<p><a href="mailto:giupuc75@gmail.com">giupuc75@gmail.com</a></p>
-</body></html>
+<html lang="it" data-lang-default="it"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Puca Labs: giochi per Android / Android games</title>
+<meta name="description" content="Puca Labs: piccolo studio indipendente di giochi per Android. UNICO e altri giochi in arrivo.">
+<meta name="theme-color" content="#0b0b10">
+<meta property="og:title" content="Puca Labs: giochi per Android / Android games"><meta property="og:description" content="Puca Labs: piccolo studio indipendente di giochi per Android. UNICO e altri giochi in arrivo.">
+<meta property="og:type" content="website"><meta property="og:image" content="img/unico_banner.webp">
+<link rel="icon" href="favicon.png">
+<link rel="stylesheet" href="assets/style.css">
+</head><body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<header class="nav"><a class="logo" href="./" aria-label="Puca Labs"><svg viewBox="0 0 40 40" width="38" height="38" aria-hidden="true"><defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c8ff00"/><stop offset=".55" stop-color="#35e0ff"/><stop offset="1" stop-color="#ff2d55"/></linearGradient></defs><rect x="2" y="2" width="36" height="36" rx="10" fill="#12121a" stroke="url(#lg)" stroke-width="2.5"/><path d="M14 30V10h8.5a6 6 0 0 1 0 12H14" fill="none" stroke="url(#lg)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+<nav><a href="#giochi"><span data-l="it">Giochi</span><span data-l="en">Games</span></a><a href="#valori"><span data-l="it">Come lavoriamo</span><span data-l="en">How we work</span></a><a href="#contatti"><span data-l="it">Contatti</span><span data-l="en">Contact</span></a>
+<button class="lang" id="lang" aria-label="Language">IT / EN</button></nav></header>
+
+<main>
+<section class="hero"><div class="wrap">
+<p class="eyebrow"><span data-l="it">Studio indipendente · Giochi per Android</span><span data-l="en">Independent studio · Android games</span></p>
+<h1><span class="grad">PUCA</span> LABS</h1>
+<p class="lead"><span data-l="it">Giochi pensati per restare in testa. Semplici da iniziare, difficili da lasciare.</span><span data-l="en">Games made to stay with you. Simple to start, hard to put down.</span></p>
+<div class="cta"><a class="btn primary" href="#giochi"><span data-l="it">Scopri i giochi</span><span data-l="en">Discover the games</span></a>
+<a class="btn" href="https://play.google.com/store/apps/details?id=com.emergent.unicoapp.thylqm&utm_source=pucalabs_site&utm_medium=web" rel="noopener"><span data-l="it">Scarica UNICO</span><span data-l="en">Get UNICO</span></a></div>
+<ul class="stats"><li><b data-count="8">8</b><span><span data-l="it">giochi</span><span data-l="en">games</span></span></li>
+<li><b data-count="1">1</b><span><span data-l="it">già su Google Play</span><span data-l="en">already on Google Play</span></span></li></ul>
+</div>
+<a class="scroll" href="#giochi" aria-label="Scroll"><svg viewBox="0 0 48 64" width="44" height="58" aria-hidden="true"><defs><linearGradient id="ag" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c8ff00"/><stop offset="1" stop-color="#35e0ff"/></linearGradient></defs><path d="M10 12l14 14 14-14" fill="none" stroke="url(#ag)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".45"/><path d="M10 32l14 14 14-14" fill="none" stroke="url(#ag)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></section>
+
+<section class="spot"><div class="wrap two">
+<div class="reveal"><span class="badge live"><span data-l="it">Già su Google Play</span><span data-l="en">Already on Google Play</span></span>
+<h2>UNICO</h2><p class="tg big"><span data-l="it">Sii unico.</span><span data-l="en">Be the only one.</span></p>
+<p><span data-l="it">Scegli il numero più basso che nessun altro sceglie. Una sfida globale al giorno.</span><span data-l="en">Pick the lowest number nobody else picks. One global challenge every day.</span></p>
+<div class="cta"><a class="btn primary" href="https://play.google.com/store/apps/details?id=com.emergent.unicoapp.thylqm&utm_source=pucalabs_site&utm_medium=web" rel="noopener"><span data-l="it">Scarica gratis</span><span data-l="en">Download free</span></a><a class="btn" href="unico/"><span data-l="it">Prova la regola</span><span data-l="en">Try the rule</span></a></div></div>
+<div class="reel reveal" aria-label="UNICO screenshots"><img src="img/unico_it_1.webp" alt="UNICO" loading="lazy" data-l="it"><img src="img/unico_it_2.webp" alt="UNICO" loading="lazy" data-l="it"><img src="img/unico_it_3.webp" alt="UNICO" loading="lazy" data-l="it"><img src="img/unico_it_4.webp" alt="UNICO" loading="lazy" data-l="it"><img src="img/unico_it_5.webp" alt="UNICO" loading="lazy" data-l="it"><img src="img/unico_it_6.webp" alt="UNICO" loading="lazy" data-l="it"><img src="img/unico_en_1.webp" alt="UNICO" loading="lazy" data-l="en"><img src="img/unico_en_2.webp" alt="UNICO" loading="lazy" data-l="en"><img src="img/unico_en_3.webp" alt="UNICO" loading="lazy" data-l="en"><img src="img/unico_en_4.webp" alt="UNICO" loading="lazy" data-l="en"><img src="img/unico_en_5.webp" alt="UNICO" loading="lazy" data-l="en"><img src="img/unico_en_6.webp" alt="UNICO" loading="lazy" data-l="en"></div>
+</div></section>
+
+<section id="giochi"><div class="wrap"><h2 class="sec"><span data-l="it">I nostri giochi</span><span data-l="en">Our games</span></h2>
+<div class="grid"><a class="card reveal tilt" href="unico/" style="--c:#c8ff00">
+<div class="ic"><img src="img/unico_icon.png" alt="UNICO" width="96" height="96" loading="lazy"></div>
+<div class="cb"><h3>UNICO</h3><span class="badge live"><span data-l="it">Su Google Play</span><span data-l="en">On Google Play</span></span>
+<p class="tg"><span data-l="it">Sii unico.</span><span data-l="en">Be the only one.</span></p><p class="sh"><span data-l="it">Scegli il numero più basso che nessun altro sceglie. Una sfida globale al giorno.</span><span data-l="en">Pick the lowest number nobody else picks. One global challenge every day.</span></p>
+<span class="more"><span data-l="it">Scopri di più</span><span data-l="en">Learn more</span> →</span></div></a>
+<a class="card reveal tilt is-soon" href="splishmix/" style="--c:#ff9a2e">
+<div class="ic"><img src="img/icon_splishmix.webp" alt="Splishmix" width="96" height="96" loading="lazy"></div>
+<div class="cb"><h3>Splishmix</h3><span class="badge soon">Coming Soon</span>
+<p class="tg"><span data-l="it">Mescola, goccia dopo goccia.</span><span data-l="en">Mix it, drop by drop.</span></p><p class="sh"><span data-l="it">Un puzzle di fluidi e colori con le simpatiche Drop-Pals.</span><span data-l="en">A fluid and colour puzzle with the cheerful Drop-Pals.</span></p>
+<span class="more"><span data-l="it">Scopri di più</span><span data-l="en">Learn more</span> →</span></div></a>
+<a class="card reveal tilt is-soon" href="pitchwood/" style="--c:#3fbf6a">
+<div class="ic"><img src="img/icon_pitchwood.webp" alt="Pitchwood" width="96" height="96" loading="lazy"></div>
+<div class="cb"><h3>Pitchwood</h3><span class="badge soon">Coming Soon</span>
+<p class="tg"><span data-l="it">Una tenda per ogni albero.</span><span data-l="en">A tent for every tree.</span></p><p class="sh"><span data-l="it">Il classico puzzle delle tende e degli alberi, per far rinascere un luogo naturale.</span><span data-l="en">The classic tents-and-trees puzzle, to bring a natural place back to life.</span></p>
+<span class="more"><span data-l="it">Scopri di più</span><span data-l="en">Learn more</span> →</span></div></a>
+<a class="card reveal tilt is-soon" href="lilystone/" style="--c:#35c9e0">
+<div class="ic"><img src="img/icon_lilystone.webp" alt="Lilystone" width="96" height="96" loading="lazy"></div>
+<div class="cb"><h3>Lilystone</h3><span class="badge soon">Coming Soon</span>
+<p class="tg"><span data-l="it">Sassi e ninfee sul lago.</span><span data-l="en">Stones and lilies on the lake.</span></p><p class="sh"><span data-l="it">Un puzzle binario rilassante: riempi la griglia con sassi e ninfee.</span><span data-l="en">A relaxing binary puzzle: fill the grid with stones and water lilies.</span></p>
+<span class="more"><span data-l="it">Scopri di più</span><span data-l="en">Learn more</span> →</span></div></a>
+<a class="card reveal tilt is-soon" href="cellmate-crew/" style="--c:#ff2d55">
+<div class="ic"><img src="img/icon_cellmate.webp" alt="Cellmate Crew" width="96" height="96" loading="lazy"></div>
+<div class="cb"><h3>Cellmate Crew</h3><span class="badge soon">Coming Soon</span>
+<p class="tg"><span data-l="it">Un uomo innocente. Una banda di compagni di cella.</span><span data-l="en">One innocent man. A crew of cellmates.</span></p><p class="sh"><span data-l="it">Guida Tank, un carcerato innocente in canotta, e fai crescere la tua banda di compagni di cella.</span><span data-l="en">Lead Tank, an innocent prisoner in a tank top, and grow your crew of cellmates.</span></p>
+<span class="more"><span data-l="it">Scopri di più</span><span data-l="en">Learn more</span> →</span></div></a>
+<a class="card reveal tilt is-soon" href="voltjoin/" style="--c:#8f6bff">
+<div class="ic"><img src="img/icon_voltjoin.webp" alt="Volt Join" width="96" height="96" loading="lazy"></div>
+<div class="cb"><h3>Volt Join</h3><span class="badge soon">Coming Soon</span>
+<p class="tg"><span data-l="it">Collega i fili. Accendi il robot.</span><span data-l="en">Join the wires. Power up the robot.</span></p><p class="sh"><span data-l="it">Trascina e ruota i pezzi per collegare i fili e far arrivare la corrente al robot.</span><span data-l="en">Drag and rotate the pieces to connect the wires and send power to the robot.</span></p>
+<span class="more"><span data-l="it">Scopri di più</span><span data-l="en">Learn more</span> →</span></div></a>
+<a class="card reveal tilt is-soon" href="polamove/" style="--c:#ffb02e">
+<div class="ic"><img src="img/icon_polamove.webp" alt="PolaMOVE" width="96" height="96" loading="lazy"></div>
+<div class="cb"><h3>PolaMOVE</h3><span class="badge soon">Coming Soon</span>
+<p class="tg"><span data-l="it">Il match-3 che attira e respinge.</span><span data-l="en">The match-3 that pulls and pushes.</span></p><p class="sh"><span data-l="it">Scambia due blocchi: l&#x27;impulso magnetico attira o respinge i vicini e innesca le catene.</span><span data-l="en">Swap two blocks: the magnetic pulse pulls or pushes the neighbours and sets off chains.</span></p>
+<span class="more"><span data-l="it">Scopri di più</span><span data-l="en">Learn more</span> →</span></div></a>
+<a class="card reveal tilt is-soon" href="goalfive/" style="--c:#ffcf33">
+<div class="ic"><img src="img/icon_goalfive.webp" alt="GoalFIVE" width="96" height="96" loading="lazy"></div>
+<div class="cb"><h3>GoalFIVE</h3><span class="badge soon">Coming Soon</span>
+<p class="tg"><span data-l="it">Calcio da tavolo, a turni.</span><span data-l="en">Tabletop football, turn by turn.</span></p><p class="sh"><span data-l="it">Sei pedine sempre in gioco, la tua squadra, i tuoi calciatori. Contro l&#x27;IA o contro un amico.</span><span data-l="en">Six pieces always in play, your team, your players. Against the AI or a friend.</span></p>
+<span class="more"><span data-l="it">Scopri di più</span><span data-l="en">Learn more</span> →</span></div></a></div></div></section>
+
+<section id="valori"><div class="wrap"><h2 class="sec"><span data-l="it">Come lavoriamo</span><span data-l="en">How we work</span></h2>
+<div class="vals">
+<div class="val reveal"><i>01</i><h3><span data-l="it">Idee originali</span><span data-l="en">Original ideas</span></h3><p><span data-l="it">Ogni gioco ha una sua identità: niente copie, niente fotocopie.</span><span data-l="en">Every game has its own identity: no clones, no copies.</span></p></div>
+<div class="val reveal"><i>02</i><h3><span data-l="it">Gioco onesto</span><span data-l="en">Fair play</span></h3><p><span data-l="it">Difficoltà mai truccata, aiuti dichiarati, premi sempre chiari: giochi sapendo come funziona.</span><span data-l="en">Difficulty is never rigged, help is explained, rewards are always clear: you know how it works.</span></p></div>
+<div class="val reveal"><i>03</i><h3><span data-l="it">Pochi minuti, tanto gusto</span><span data-l="en">A few minutes, lots of fun</span></h3><p><span data-l="it">Pensati per le pause della giornata: si inizia subito, si smette quando si vuole.</span><span data-l="en">Made for the breaks in your day: start right away, stop whenever you like.</span></p></div>
+</div></div></section>
+
+<section id="contatti"><div class="wrap center reveal"><h2 class="sec"><span data-l="it">Scrivici</span><span data-l="en">Get in touch</span></h2>
+<p><span data-l="it">Idee, domande, collaborazioni: ci fa piacere sentirti.</span><span data-l="en">Ideas, questions, collaborations: we would love to hear from you.</span></p>
+<a class="btn primary big" href="mailto:giupuc75@gmail.com">giupuc75@gmail.com</a></div></section>
+</main>
+<footer><div class="wrap"><div><strong>PUCA LABS</strong><p><span data-l="it">Piccolo studio indipendente di giochi per Android.</span><span data-l="en">A small independent studio making Android games.</span></p></div>
+<div><a href="mailto:giupuc75@gmail.com">giupuc75@gmail.com</a><p class="muted">© 2026 Puca Labs</p></div></div></footer>
+<script src="assets/app.js"></script></body></html>

@@ -149,3 +149,10 @@ footer .fr a:hover,.fdc:hover{color:var(--lime)}
 .gift{padding:28px 20px}.gift-top{flex-direction:column;gap:16px}.gift-ic{width:72px;height:72px;border-radius:20px}.gift-ic svg{width:44px;height:44px}
 .steps{grid-template-columns:1fr;gap:14px}.steps li:not(:last-child):after{top:auto;bottom:-15px;right:auto;left:43px;width:2px;height:16px;background:linear-gradient(var(--lime),var(--cy))}
 .gift-bot{grid-template-columns:1fr}.gift-bot .btn{width:100%}}section[id]{scroll-margin-top:64px}
+/* titolo PUCA LABS: «ola da stadio» (build.py: ola_title) */
+.ola{white-space:nowrap}.ola .w{display:inline-block}
+.ola .ch{display:inline-block;transform-origin:50% 100%;animation:ola 4.8s cubic-bezier(.3,.7,.3,1) infinite;animation-delay:calc(var(--i)*.11s + .6s);will-change:transform,filter}
+.ola .ch.g{background:linear-gradient(100deg,var(--lime),var(--cy) 50%,var(--pink));background-size:400% 100%;background-position:calc(var(--k)*33.33%) 0;-webkit-background-clip:text;background-clip:text;color:transparent}
+@keyframes ola{0%,24%,100%{transform:none;filter:none}
+7%{transform:translateY(-.16em) scale(1.07);filter:brightness(1.55) drop-shadow(0 0 .12em rgba(200,255,0,.85)) drop-shadow(0 0 .32em rgba(53,224,255,.55))}
+14%{transform:translateY(.02em) scale(.99);filter:brightness(1.15) drop-shadow(0 0 .1em rgba(200,255,0,.35))}}

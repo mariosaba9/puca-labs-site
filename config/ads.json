@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "default": {
+    "ads_first_win": 2,
+    "ads_every_wins": 2,
+    "ads_min_gap_s": 60
+  },
+  "apps": {}
+}

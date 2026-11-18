@@ -5,5 +5,11 @@
     "ads_every_wins": 2,
     "ads_min_gap_s": 60
   },
-  "apps": {}
+  "apps": {
+    "com.pucalabs.splishmix": {
+      "ads_first_win": 4,
+      "ads_every_wins": 3,
+      "ads_min_gap_s": 120
+    }
+  }
 }
